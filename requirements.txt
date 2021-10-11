@@ -6,8 +6,10 @@ autopep8==1.5.7
 backcall==0.2.0
 black==21.7b0
 click==8.0.1
+colorama==0.4.4
 decorator==5.0.9
 Django==3.2.8
+djlint==0.5.7
 ipython==7.25.0
 ipython-genutils==0.2.0
 isort==5.9.3
@@ -31,10 +33,13 @@ pylint-django==2.4.4
 pylint-plugin-utils==0.6
 PyMySQL==1.0.2
 pytz==2021.3
-regex==2021.8.3
+PyYAML==5.4.1
+regex==2021.10.8
 sqlparse==0.4.2
 toml==0.10.2
 tomli==1.2.1
+tomlkit==0.7.2
+tqdm==4.62.3
 traitlets==5.0.5
 typing-extensions==3.10.0.2
 wcwidth==0.2.5
