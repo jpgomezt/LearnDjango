@@ -12,3 +12,12 @@ class Choice(models.Model):
 
     def __str__(self):
         return self.choice_text
+
+    def get_question(self):
+        return self.question
+    
+    def get_choice_text(self):
+        return self.choice_text
+
+    def get_votes(self):
+        return self.votes
